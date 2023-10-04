@@ -35,23 +35,28 @@
     <script src="main.js" defer></script>
   </head>
   <body>
-    <main>
-      <div class="container">
-        <div>
-          <h1 class="heading">Learn to code by watching others</h1>
-          <p>
+    <main class="grid">
+      <div class="hero | container grid even-columns">
+        <div class="hero__content">
+          <h1 class="heading align-center">Learn to code by watching others</h1>
+          <p
+            class="clr-secondary-300 small-spacer mx-main-text-width align-center"
+          >
             See how experienced developers solve problems in real-time. Watching
             scripted tutorials is great, but understanding how developers think
             is invaluable.
           </p>
         </div>
         <div>
-          <div class="card">
-            <p><span>Try it free 7 days</span>then $20/mo. thereafter</p>
+          <div class="subscription-offer card clr-bg-accent-2 align-center">
+            <p class="fw-regular align-center">
+              <span class="fw-bold">Try it free 7 days </span>then $20/mo.
+              thereafter
+            </p>
           </div>
-          <div class="card">
-            <form class="form">
-              <div class="form__section">
+          <div class="card clr-bg-accent-1 medium-spacer align-center">
+            <form class="form | grid gap">
+              <div class="form__section | grid gap">
                 <input
                   class="form__section-input"
                   type="text"
@@ -60,7 +65,7 @@
                 <div class="form__section-error"></div>
               </div>
 
-              <div class="form__section">
+              <div class="form__section grid gap">
                 <input
                   class="form__section-input"
                   type="text"
@@ -69,7 +74,7 @@
                 <div class="form__section-error"></div>
               </div>
 
-              <div class="form__section">
+              <div class="form__section grid gap">
                 <input
                   class="form__section-input"
                   type="text"
@@ -78,7 +83,7 @@
                 <div class="form__section-error"></div>
               </div>
 
-              <div class="form__section">
+              <div class="form__section grid gap">
                 <input
                   class="form__section-input"
                   type="text"
@@ -87,11 +92,15 @@
                 <div class="form__section-error"></div>
               </div>
 
-              <button class="btn">Claim your free trial</button>
+              <button class="btn | clr-bg-primary-500 fw-medium">
+                Claim your free trial
+              </button>
 
-              <p>
+              <p
+                class="align-center clr-secondary-hsl-300 fs-small mx-footer-text-width"
+              >
                 By clicking the button, you are agreeing to our
-                <span>Terms and Services</span>
+                <span class="clr-primary-300">Terms and Services</span>
               </p>
             </form>
           </div>
