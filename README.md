@@ -5,7 +5,7 @@
 #### Project links
 
 - Solution URL: https://github.com/coderSeth13/FEM_INTRO_COMPONENT_WITH_SIGN_UP_FORM.git
-- Live Site URL:
+- Live Site URL: https://coderseth13.github.io/FEM_INTRO_COMPONENT_WITH_SIGN_UP_FORM/
 
 #### Social links
 
