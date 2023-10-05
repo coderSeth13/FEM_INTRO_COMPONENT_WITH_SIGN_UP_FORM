@@ -104,6 +104,7 @@ main {
 .form__section-input:focus,
 .form__section-input:focus-visible {
   border: 2px solid var(--clr-secondary-600);
+  outline: none;
 }
 
 .btn {
@@ -121,6 +122,7 @@ main {
 .btn:focus,
 .btn:focus-visible {
   opacity: 0.75;
+  outline: none;
 }
 
 .form {
