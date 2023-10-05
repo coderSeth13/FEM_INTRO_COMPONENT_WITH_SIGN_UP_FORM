@@ -97,12 +97,12 @@ main {
 .form__section-input {
   padding: var(--size-300);
   border-radius: var(--size-100);
-  border: 1.5px solid var(--clr-secondary-300);
+  border: 2px solid var(--clr-secondary-300);
 }
 
 .form__section-input:focus,
 .form__section-input:focus-visible {
-  border: 1.5px solid var(--clr-secondary-600);
+  border: 2px solid var(--clr-secondary-600);
 }
 
 .btn {
@@ -120,6 +120,23 @@ main {
 .btn:focus,
 .btn:focus-visible {
   opacity: 0.75;
+}
+
+.form__section-error {
+  text-align: end;
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.form__section.error input {
+  border-color: var(--clr-primary-300);
+  background-image: url(images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+}
+
+.form__section.success input {
+  border-color: var(--clr-primary-500);
 }
 
 /* Utilities */

@@ -55,14 +55,18 @@
             </p>
           </div>
           <div class="card clr-bg-accent-1 medium-spacer align-center">
-            <form class="form | grid gap">
+            <form class="form | grid gap" data-js-submit-form>
               <div class="form__section | grid gap">
                 <input
                   class="form__section-input"
                   type="text"
                   placeholder="First Name "
+                  data-js-first-name
                 />
-                <div class="form__section-error"></div>
+                <div
+                  class="form__section-error clr-primary-300"
+                  data-js-validate-error
+                ></div>
               </div>
 
               <div class="form__section grid gap">
@@ -70,8 +74,12 @@
                   class="form__section-input"
                   type="text"
                   placeholder="Last Name  "
+                  data-js-last-name
                 />
-                <div class="form__section-error"></div>
+                <div
+                  class="form__section-error clr-primary-300"
+                  data-js-validate-error
+                ></div>
               </div>
 
               <div class="form__section grid gap">
@@ -79,8 +87,12 @@
                   class="form__section-input"
                   type="text"
                   placeholder="Email Address"
+                  data-js-email
                 />
-                <div class="form__section-error"></div>
+                <div
+                  class="form__section-error clr-primary-300"
+                  data-js-validate-error
+                ></div>
               </div>
 
               <div class="form__section grid gap">
@@ -88,8 +100,12 @@
                   class="form__section-input"
                   type="text"
                   placeholder="Password "
+                  data-js-password
                 />
-                <div class="form__section-error"></div>
+                <div
+                  class="form__section-error clr-primary-300"
+                  data-js-validate-error
+                ></div>
               </div>
 
               <button class="btn | clr-bg-primary-500 fw-medium">
@@ -97,7 +113,7 @@
               </button>
 
               <p
-                class="align-center clr-secondary-hsl-300 fs-small mx-footer-text-width"
+                class="align-center clr-secondary-hsl-300 mx-footer-text-width"
               >
                 By clicking the button, you are agreeing to our
                 <span class="clr-primary-300">Terms and Services</span>
